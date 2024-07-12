@@ -1,4 +1,3 @@
-//your JS code here. If required.
 const bands = [
     'The Plot in You', 
     'The Devil Wears Prada', 
@@ -24,7 +23,7 @@ function strip(bandName) {
 const sortedBands = bands.sort((a, b) => strip(a).localeCompare(strip(b)));
 
 // Get the UL element
-const bandList = document.getElementById('band');
+const bandList = document.getElementById('bands');
 
 // Create LI elements and append them to the UL
 sortedBands.forEach(band => {
